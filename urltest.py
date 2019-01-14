@@ -11,8 +11,9 @@ headers = {
     'Content-Type': 'application/json; charset=UTF-8'
 }
 
-uri = 'http://172.26.236.4:5600'
-path = '/cmdc/content?q=title~Mission%20Impossible%2010'
+uri = '<url:port with http://>'
+path = '/path'
+# Use URL encoding if required
 
 target = urlparse(uri+path)
 method = 'GET'
